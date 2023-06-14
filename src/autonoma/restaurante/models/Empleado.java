@@ -1,16 +1,23 @@
 
 package autonoma.restaurante.models;
-
 /**
- *
- * @author maria
- */
+*) Clase Empleado
+*) @autor Maria Luisa Rios
+*) @version ----> 1.0.0
+*) @since ---> 01/06/2023
+*) @see 
+*/
 public class Empleado extends Persona {
     
     // Atributos
     ////////////////////////////////////////////////////////////////////////////
-    
+    /**
+    * Cargo empleado
+    */
     private String cargo;
+    /**
+    * Salario
+    */
     private Double salario;
     
     

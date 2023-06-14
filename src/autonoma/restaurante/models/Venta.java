@@ -2,20 +2,38 @@ package autonoma.restaurante.models;
  
  import java.util.ArrayList;
  import java.util.Date;
- 
  /**
-  *
-  * @author maria
-  */
+*) Clase Venta
+*) Clase Administrador
+*) @autor Maria Luisa Rios
+*) @version ----> 1.0.0
+*) @since ---> 01/06/2023
+*) @see 
+*/
+
  public class Venta {
      
      // Atributos
      ////////////////////////////////////////////////////////////////////////////
-     
+     /**
+    * Codigo de venta
+    */
      private String codigo;
+    /**
+    * Valor total venta
+    */
      private Double valorTotal;
+    /**
+    * Valor ganancia venta
+    */
      private Double valorGanancia;
+    /**
+    * Fecha venta
+    */
      private Date fecha;
+    /**
+    * Lista platos vendidos
+    */
      private ArrayList<Plato> platosVendidos;
      
      //Constructor
@@ -75,7 +93,7 @@ package autonoma.restaurante.models;
  
      
      ////////////////////////////////////////////////////////////////////////////
- 
+   
      public void agregarPlatoVendido(Plato plato) {
          platosVendidos.add(plato);
          valorTotal += plato.getPrecioVenta();

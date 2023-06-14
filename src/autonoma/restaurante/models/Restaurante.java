@@ -3,25 +3,51 @@ package autonoma.restaurante.models;
 
 import java.util.ArrayList;
 import java.util.Collections;
-
 /**
- *
- * @author maria
- */
+*) Clase Restaurante
+*) @autor Maria Luisa Rios
+*) @version ----> 1.0.0
+*) @since ---> 01/06/2023
+*) @see 
+*/
 public class Restaurante {
     
     
     // Atributos
     ////////////////////////////////////////////////////////////////////////////
-    
+    /**
+    * Nombre restaurante
+    */
     private String nombre;
+    /**
+    * Direccion restaurante
+    */
     private String direccion;
+    /**
+    * Telefono restaurante
+    */
     private long telefono;
+    /**
+    * Lista menu
+    */
     public static ArrayList<Menu> menus = new ArrayList<>(Collections.singleton(crearMenuPrueba()));
+    /**
+    * Lista platos
+    */
     public static ArrayList<Plato> platos = new ArrayList<>();
+    /**
+    * Lista ventas
+    */
     public static ArrayList<Venta> ventas = new ArrayList<>();
+    /**
+    * Lista empleados
+    */
     public static ArrayList<Empleado> empleados = new ArrayList<>();
+    /**
+    * Lista estados financieros
+    */
     public static ArrayList<EstadoFinanciero> estadoFinanciero = new ArrayList<>();
+    
     private static Administrador administrador ;
     
     

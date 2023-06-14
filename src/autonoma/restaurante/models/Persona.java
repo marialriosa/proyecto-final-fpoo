@@ -1,18 +1,31 @@
 
 package autonoma.restaurante.models;
-
 /**
- *
- * @author maria
- */
+*) Clase Persona
+*) @autor Maria Luisa Rios
+*) @version ----> 1.0.0
+*) @since ---> 01/06/2023
+*) @see 
+*/
 public abstract class Persona {
     
     //Atributos
     ////////////////////////////////////////////////////////////////////////////
-    
+    /**
+    * Nombre persona
+    */
     private String nombre;
+    /**
+    * Id persona
+    */
     private String Id;
+    /**
+    * telefono persona.
+    */
     private Long telefono;
+    /**
+    * Direccion persona
+    */
     private String direccion;
     
     

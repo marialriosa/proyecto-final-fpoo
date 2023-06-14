@@ -1,20 +1,39 @@
 
 package autonoma.restaurante.models;
-
-/*
- *
- * @author maria
- */
+/**
+*) Clase Plato
+*) @autor Maria Luisa Rios
+*) @version ----> 1.0.0
+*) @since ---> 01/06/2023
+*) @see 
+*/
 public class Plato {
     public static long contadorPlatos = 1;
     // Atributos
     ////////////////////////////////////////////////////////////////////////////
-    
+    /**
+    * Identificador unico plato
+    */
     private long identificador;
+    /**
+    * Nombre plato
+    */
     private String nombre;
+    /**
+    * Precio venta plato
+    */
     private Double precioVenta;
+    /**
+    * Costo fabricación plato
+    */
     private Double costoFabricacion;
+    /**
+    * Descripcion plato
+    */
     private String descripcion;
+    /**
+    * Tipo de plato
+    */
     private Boolean esInternacional;
     
     //Constructor
@@ -89,6 +108,13 @@ public class Plato {
     }
     
 ////////////////////////////////////////////////////////////////////////////////
+    
+    
+    /**
+    * Calcula el precio de venta del plato
+    * precio: asociado a costo fabricacion, iva y % ganancia
+    * @return (retorna el valor del precio de venta)
+    */
     
       public final Double calcularPrecioVenta() {
         Double precioVentaCalculado = this.costoFabricacion + (this.costoFabricacion * 0.19); // Agregar IVA

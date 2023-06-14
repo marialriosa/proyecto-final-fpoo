@@ -2,18 +2,28 @@
 package autonoma.restaurante.models;
 
 import java.util.ArrayList;
-
 /**
- *
- * @author maria
- */
+*) Clase Menu
+*) @autor Maria Luisa Rios
+*) @version ----> 1.0.0
+*) @since ---> 01/06/2023
+*) @see 
+*/
 public class Menu {
     
     // Atributos
     ////////////////////////////////////////////////////////////////////////////
-    
+    /**
+    * nombre menu
+    */
     private String nombre;
+    /**
+    * Año creación menu
+    */
     private int anoCreacion;
+    /**
+    * Lista de platos menu
+    */
     private ArrayList<Plato> platos;
     
     

@@ -1,17 +1,24 @@
 
 package autonoma.restaurante.models;
-
 /**
- *
- * @author maria
- */
+*) Clase Administrador
+*) @autor Maria Luisa Rios
+*) @version ----> 1.0.0
+*) @since ---> 01/06/2023
+*) @see 
+*/
 public class Administrador extends Persona{
     
     // Atributos
     ////////////////////////////////////////////////////////////////////////////
     
-    
+    /**
+    * Nombre usuario
+    */
     private String nombreUsuario;
+    /**
+    * Contraseña
+    */
     private String contrasena;
     //Constructor 
     ////////////////////////////////////////////////////////////////////////////

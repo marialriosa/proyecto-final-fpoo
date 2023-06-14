@@ -1,10 +1,12 @@
 
 package autonoma.restaurante.models;
-
 /**
- *
- * @author maria
- */
+*) Clase Plato Internacional
+*) @autor Maria Luisa Rios
+*) @version ----> 1.0.0
+*) @since ---> 01/06/2023
+*) @see 
+*/
 public class PlatoInternacional extends Plato {
     
     //Constructor

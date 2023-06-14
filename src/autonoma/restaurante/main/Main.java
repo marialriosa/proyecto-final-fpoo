@@ -5,9 +5,12 @@ import autonoma.restaurante.models.Restaurante;
 import autonoma.restaurante.views.VentanaPrincipalVista;
 
 /**
- *
- * @author maria
- */
+*) Vista principal restaurante
+*) @autor Maria Luisa Rios
+*) @version ----> 1.0.0
+*) @since ---> 01/06/2023
+*) @see 
+*/
 public class Main {
     
     public static void main(String[]args){

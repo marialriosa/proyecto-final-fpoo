@@ -1,23 +1,30 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package autonoma.restaurante.models;
 
 import java.util.Date;
-
 /**
- *
- * @author maria
- */
+*) Clase Estados Financieros
+*) @autor Maria Luisa Rios
+*) @version ----> 1.0.0
+*) @since ---> 01/06/2023
+*) @see 
+*/
 public class EstadoFinanciero {
     
     // Atributos
     ////////////////////////////////////////////////////////////////////////////
     
-   
+   /**
+    * Fecha generación estados financieros
+    */
     private Date fechaGeneracion;
+    /**
+    * valor recaudado hasta la fecha
+    */
     private double valorTotalRecaudado;
+    /**
+    * Total ganancias hasta la fecha
+    */
     private double totalGanancias;
     
     
