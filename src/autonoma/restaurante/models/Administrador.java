@@ -20,8 +20,8 @@ public class Administrador extends Persona{
         super(nombre, Id, telefono, direccion);
         this.nombreUsuario = nombreUsuario;
         this.contrasena = contrasena;
-    }       
-
+    }     
+    
     //Metodos de acceso
     /////////////////////////////////////////////////////////////////////////////
     public String getNombreUsuario() {
@@ -41,5 +41,16 @@ public class Administrador extends Persona{
     }
 
    
-    
+    public String getNombrePersona() {
+        return getNombre() ;
+    }
+    public String getIdPersona(){
+        return getId();
+    }
+    public Long getTelefonoPersona(){
+        return getTelefono();
+    }
+    public String getDireccionPersona(){
+        return getDireccion();
+    }
 }

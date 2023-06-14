@@ -5,32 +5,11 @@ package autonoma.restaurante.models;
  *
  * @author maria
  */
-public class PlatoInternacional {
-    
-    //Atributos
-    ////////////////////////////////////////////////////////////////////////////
-    
-    private String paisOrigen;
+public class PlatoInternacional extends Plato {
     
     //Constructor
     ////////////////////////////////////////////////////////////////////////////
-
-    public PlatoInternacional(String paisOrigen) {
-        this.paisOrigen = paisOrigen;
+    public PlatoInternacional(String nombre, Double costoFabricacion, String descripcion, Boolean esInternacional) {
+        super(nombre, costoFabricacion, descripcion, esInternacional);
     }
-    
-    //Metodos de acceso
-    ////////////////////////////////////////////////////////////////////////////
-
-    public String getPaisOrigen() {
-        return paisOrigen;
-    }
-
-    public void setPaisOrigen(String paisOrigen) {
-        this.paisOrigen = paisOrigen;
-    }
-    
-    
-    
-    
 }

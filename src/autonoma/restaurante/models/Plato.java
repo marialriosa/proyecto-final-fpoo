@@ -83,15 +83,12 @@ public class Plato {
     public void setEsInternacional(Boolean esInternacional) {
         this.esInternacional = esInternacional;
     }
-    
-
-////////////////////////////////////////////////////////////////////////////////
-
+  
     public void setPrecioVenta(Double precioVenta) {
         this.precioVenta = precioVenta;
     }
     
-    
+////////////////////////////////////////////////////////////////////////////////
     
       public final Double calcularPrecioVenta() {
         Double precioVentaCalculado = this.costoFabricacion + (this.costoFabricacion * 0.19); // Agregar IVA

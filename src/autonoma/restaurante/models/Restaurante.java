@@ -100,6 +100,10 @@ public class Restaurante {
     public static void setEmpleados(ArrayList<Empleado> empleados) {
         Restaurante.empleados = empleados;
     }
+    
+    public void setPlatos(Plato plato){
+        platos.add(plato);
+    }
 
   //////////////////////////////////////////////////////////////////////////////
     public void agregarMenu(Menu menu) {
@@ -118,17 +122,16 @@ public class Restaurante {
         ventas.remove(venta);
     }
     
-    public void setPlatos(Plato plato){
-        platos.add(plato);
-    }
+    
     public static ArrayList<Plato> getPlatos(){
         return platos;
     }
+   
     public void eliminarPlato(Plato plato) {
         platos.remove(plato);
     }
     
-    private void crearAdmin(){
+    public void crearAdmin(){
         Restaurante.administrador = new Administrador("Maria Luisa","1",1234,"Muy muy lejano","malu","Malu");;
     }
    

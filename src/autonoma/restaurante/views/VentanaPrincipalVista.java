@@ -5,6 +5,7 @@
 package autonoma.restaurante.views;
 
 import java.awt.Color;
+import java.awt.Frame;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
@@ -122,12 +123,13 @@ public class VentanaPrincipalVista extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnIniciarSesionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIniciarSesionActionPerformed
-        AccesoModulosVista ventanaAccesoModulos = new AccesoModulosVista(this, true);
-        ventanaAccesoModulos.setVisible(true);
+        Login login = new Login();
+        login.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_btnIniciarSesionActionPerformed
 
     private void btnIniciarSesionMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnIniciarSesionMouseClicked
-       
+        
     }//GEN-LAST:event_btnIniciarSesionMouseClicked
 
       public void mouseEntered(JButton panel){
