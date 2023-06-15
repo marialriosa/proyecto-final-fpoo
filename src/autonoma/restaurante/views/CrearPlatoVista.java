@@ -248,7 +248,7 @@ public class CrearPlatoVista extends javax.swing.JDialog {
     }//GEN-LAST:event_btnGuardarMouseClicked
 
     private void btnVolverActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVolverActionPerformed
-       this.setVisible(false);
+       this.dispose();
     }//GEN-LAST:event_btnVolverActionPerformed
 
     /**
